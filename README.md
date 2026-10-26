@@ -55,6 +55,12 @@
 * Total configurations: 2 × 5 × 3 = 30
 * Maximum total training epochs: 600 across all configurations.
 
+### ViT Pipeline Flowchart:
+<img width="429" height="705" alt="image" src="https://github.com/user-attachments/assets/d3ff84cd-d1e7-4bf4-8d58-d2453ffd4862" />
+
+### Transformer Encoder Block:
+<img width="430" height="562" alt="image" src="https://github.com/user-attachments/assets/d112e8ae-0c52-41dd-9ecf-4835ea13ae8d" />
+
 ## Workflow
 
 1. Load the FashionMNIST dataset.
@@ -90,3 +96,13 @@
 * Final evaluation: Use test performance to report the selected model’s generalization.
 * Libraries: PyTorch, Torchvision, NumPy, Pandas, Matplotlib, Einops.
 * Hardware: NVIDIA T4 GPU (Google Colab).
+
+### Training and Evaluation Architecture:
+<img width="449" height="361" alt="image" src="https://github.com/user-attachments/assets/ffb27ad4-daf6-4a40-978a-b6984e90baf6" />
+
+### Per-Configuration Training Loop:
+<img width="539" height="434" alt="image" src="https://github.com/user-attachments/assets/6c388356-55cb-4987-8d5d-2900d389c31c" />
+
+
+### Data and Artifact Flow:
+<img width="539" height="434" alt="image" src="https://github.com/user-attachments/assets/c8957c88-4ee5-4674-bf20-3e2b9ab56490" />
